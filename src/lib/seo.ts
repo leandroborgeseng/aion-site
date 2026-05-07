@@ -2,11 +2,28 @@ import type { Metadata } from "next";
 
 export const defaultSiteUrl = "https://www.aion.eng.br";
 
+/** Origem do site; `NEXT_PUBLIC_SITE_URL` mal formatado usa o default (evita 500 em `metadataBase` / `robots`). */
 export function getSiteUrl(): string {
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "") ||
-    defaultSiteUrl
-  );
+  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (!raw) {
+    return defaultSiteUrl;
+  }
+
+  const noTrailingSlash = raw.replace(/\/+$/, "");
+  try {
+    const withScheme =
+      noTrailingSlash.startsWith("http://") ||
+      noTrailingSlash.startsWith("https://")
+        ? noTrailingSlash
+        : `https://${noTrailingSlash}`;
+    const u = new URL(withScheme);
+    if (u.protocol !== "http:" && u.protocol !== "https:") {
+      return defaultSiteUrl;
+    }
+    return u.origin;
+  } catch {
+    return defaultSiteUrl;
+  }
 }
 
 export type SiteLocaleCode = "pt" | "en" | "es";
