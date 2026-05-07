@@ -1,0 +1,115 @@
+{
+  "topbar": {
+    "address1": "1636 - Block 1504 - Cerqueira Cesar - Sao Paulo/SP - ZIP Code: 01.310-200",
+    "address2": "Av. Ismael Alonso Y Alonso, 1219 - Conj. 1508 - Center - Franca/SP - ZIP Code: 14.400-770",
+    "phone": "16 3030-0445",
+    "portalLink": "Customer Portal",
+    "portalUrl": "https://portal.aion.eng.br/"
+  },
+  "nav": {
+    "clinicalEngineering": "CLINICAL ENGINEERING",
+    "assetManagement": "CLINICAL ASSET MANAGEMENT",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "card1Title": "Equipment calibration",
+    "card1Desc": "Precision and reliability in all your medical-hospital equipment in the day-to-day running of your clinic or hospital.",
+    "card2Title": "Equipment maintenance",
+    "card2Desc": "Precision and reliability in all your medical-hospital equipment in the day-to-day running of your clinic or hospital.",
+    "card3Title": "Team management",
+    "card3Desc": "We manage your medical-hospital equipment and your technical team.",
+    "cta": "Learn more"
+  },
+  "services": {
+    "label": "Services:",
+    "intro": "Aion Engenharia offers complete solutions in clinical engineering, clinical asset management, hospital engineering — including architectural projects and health surveillance approvals — and hospital automation. We work with a focus on efficiency, safety and compliance for hospitals, clinics and healthcare institutions.",
+    "s1": "Clinical Engineering",
+    "s2": "Clinical Asset Management",
+    "s3": "Hospital Engineering",
+    "s4": "Hospital Automation"
+  },
+  "engClinica": {
+    "heading": "Clinical Engineering",
+    "intro1": "Regardless of size and technology density, more and more healthcare providers are relying on Aion to increase the lifespan, uptime and performance of their medical equipment.",
+    "intro2": "The main result of our work is to enable our clients to focus on patient care - and not on the malfunction of medical equipment or the expenses resulting from this problem. Aiming at this result, Aion Engenharia, through partnerships with internationally renowned entities, brings to Brazil the most modern electromedical asset management in the world.",
+    "intro3": "Of the various services in our portfolio, one or a set of them will provide the ideal solution for your business. Understand how each service in our portfolio can help your company. If you have any questions, contact one of our specialists directly. They are always available to help put together the ideal mix of services for your unique, personalized solution.",
+    "cta": "Find out more...",
+    "detailIntro": "Clinical engineering is an essential area to ensure the safety, efficiency and availability of medical-hospital equipment within healthcare institutions. More than equipment maintenance, it is a specialized technical management of the entire electromedical fleet, aligned with regulatory standards, technological advances and care needs.\n\nClinical engineering acts strategically in the management of health technologies, integrating technical, regulatory and operational knowledge to ensure the safe and effective use of medical equipment.\n\nCheck out the main pillars that structure an efficient clinical engineering service:",
+    "items": [
+      {
+        "title": "Technology in Clinical Engineering",
+        "desc": "We monitor the technological evolution of the sector to assist in the acquisition, implementation and evaluation of new technologies, promoting innovation with responsibility and safety."
+      },
+      {
+        "title": "Regulatory Compliance",
+        "desc": "We operate in full compliance with ANVISA standards, such as RDC 665/2022, which requires the maintenance and traceability of all equipment used in healthcare."
+      },
+      {
+        "title": "Team Allocation, Training and Development",
+        "desc": "Efficient management requires qualified teams. We offer support in technical allocation and training of professionals in the correct use of equipment, minimizing risks and optimizing results."
+      },
+      {
+        "title": "Preventive maintenance",
+        "desc": "Regular maintenance ensures the performance and durability of the equipment. We follow the manufacturers' recommendations and current standards to keep everything working safely."
+      },
+      {
+        "title": "Medical Equipment Replacement Planning",
+        "desc": "We evaluate the life cycle of equipment to plan replacements in a technical, economic and strategic way, avoiding risks and losses due to obsolescence."
+      },
+      {
+        "title": "Cybersecurity in Clinical Engineering",
+        "desc": "With the increasing digital integration of medical devices, we apply cybersecurity measures to protect sensitive data and ensure the integrity of operations."
+      }
+    ]
+  },
+  "gestaoAtivos": {
+    "heading": "Asset Management",
+    "intro": "Do you know exactly how much medical equipment your institution has, where it is, which ones are working properly and which ones need maintenance? Have you ever imagined having full control over your assets without having to hire expensive, closed service packages? With smart management, it is possible to reduce costs, increase efficiency and ensure patient safety, all while maintaining the freedom to choose the service providers that best suit your needs. Below, we show you how Aion Engenharia can transform the way you care for your equipment.",
+    "detail": "Aion Engenharia offers complete clinical asset management solutions, combining technology and technical knowledge to increase operational efficiency and reduce costs in healthcare institutions. Through asset management, we perform a complete registration of all equipment and monitor its life cycle, offering the client a clear and strategic view of the status of their medical devices. Unlike rigid models, our service allows total flexibility: the client does not need to hire closed packages with a resident engineer, calibrations or constant preventive maintenance. Instead, you receive accurate alerts about the services that should be performed, based on technical and regulatory criteria, and you can contract them with any provider you trust. Our platform ensures that all services – regardless of who performs them – are performed correctly and within the recommended timeframes, ensuring compliance, patient safety and asset longevity. With Aion Engenharia, your healthcare institution gains control, savings and the freedom to make the best decisions.",
+    "understandMore": "Understand better:",
+    "items": [
+      {
+        "title": "+ Clinical asset management",
+        "desc": "Clinical asset management is a strategic process that encompasses the entire life cycle of medical equipment, from acquisition to disposal. This management involves the use of specialized technology to track, monitor and optimize asset performance, ensuring greater control, safety and operational efficiency."
+      },
+      {
+        "title": "+ Asset management training",
+        "desc": "Furthermore, training in clinical asset management is essential to enable teams to use equipment correctly, understand its criticality and contribute to the conservation and responsible use of technological resources."
+      },
+      {
+        "title": "+ Planning and consulting in capital investments",
+        "desc": "Another fundamental aspect is planning and consulting on capital investments, which guide the institution on which technologies to acquire, when to replace equipment and how to allocate resources intelligently, considering cost-benefit and assistance impact."
+      },
+      {
+        "title": "+ Management of mobile medical equipment",
+        "desc": "The management of mobile medical equipment, such as infusion pumps, monitors and oximeters, is also part of this scope. Since these devices are frequently moved, they require strict control to avoid losses, ensure availability and keep their maintenance up to date."
+      },
+      {
+        "title": "+ Disposal of medical devices",
+        "desc": "Finally, medical devices must be disposed of safely, in compliance with environmental and health standards. Proper disposal management avoids legal and environmental risks, and also provides space for technological renewal within the institution. This integrated approach ensures that clinical assets are used efficiently, safely and strategically, promoting higher quality healthcare."
+      }
+    ]
+  },
+  "engHospitalar": {
+    "heading": "Hospital Engineering",
+    "subtitle": "Hospital Engineering with Precision, Functionality and Compliance",
+    "body": "In healthcare, every detail matters — and a poorly planned project can mean delays, extra costs and even the interruption of an essential service. Therefore, our work in hospital engineering is focused on supporting establishments of all sizes, from small clinics and offices to large hospitals and medical centers, offering functional, safe technical solutions in full compliance with current regulations. We have renowned professionals in the market, with extensive experience in the area — some with more than 30 years of experience in hospital projects — who combine technical knowledge with practical experience to develop optimized, safe projects approved by regulatory bodies.\n\nUnfortunately, it is common to see healthcare projects developed by professionals who do not master the specific regulations of the sector, resulting in rework, high costs and delays. After a visit from health surveillance or other regulatory bodies, these spaces often need to be remodeled to comply with legal requirements before they can even begin to operate.\n\nOur commitment is precisely to avoid this type of disruption, delivering a project that is already compliant with ANVISA regulations, RDCs and other applicable legislation, with intelligent workflow, functional distribution of environments and focus on the experience of the patient and the health team. With a technical, agile and assertive approach, we offer peace of mind to those investing in healthcare, ensuring that the project advances with safety, economy and efficiency.",
+    "together": "Together:",
+    "togetherSubtitle": "We are with you at every step — from design to operation.",
+    "togetherBody": "More than just drawing up blueprints and technical plans, we are deeply involved in each phase of the process, accompanying you from the initial planning to the actual start of your clinic or hospital's activities. We act as strategic partners, guiding decisions, anticipating legal requirements and ensuring that each environment is ready to operate safely, efficiently and in full compliance. Our goal is for you to open your healthcare service with confidence, knowing that all technical, regulatory and functional details have been thought out by experts. With our team by your side, your project is not only viable — it is achievable, approved and optimized for success.",
+    "readMore": "read more"
+  },
+  "automacao": {
+    "heading": "Hospital Automation",
+    "subtitle": "Automation Solutions for Healthcare: Technology at the Service of Efficiency",
+    "body": "Aion Engenharia Clínica also offers complete automation solutions aimed at healthcare establishments, working on two distinct fronts to meet different operational and technological needs. The first is based on Internet of Things (IoT) technology, provided by a company in the same group, specialized in cold chain control. This solution uses GSM and Sigfox communication networks for remote and real-time monitoring of equipment such as cold rooms and vaccine and medicine refrigerators. The system automatically generates temperature histograms, replacing manual records, and sends alerts via email and WhatsApp whenever temperature deviations occur. It is the ideal solution to ensure safety, traceability and compliance in sensitive healthcare environments. The second automation front, focused on more robust hospital infrastructure, is offered by Aion through a partnership with a renowned national company, which has more than 40 years of experience in the building and hospital automation sector. This company is present in the main hospitals in Brazil and works in the management of central air conditioning machines, climate control in operating rooms, power centers, exhaust systems, pressurization and much more. With these two approaches, we offer everything from intelligent solutions for operational routines to complex building automation systems, combining technology, safety and reliability so that your healthcare institution operates with excellence.",
+    "ctaTitle": "Automate. Supervise. Trust.",
+    "ctaBody": "Transform the management of your healthcare infrastructure with intelligent solutions that ensure greater security, efficiency and control. From the cold chain to managing complex systems such as HVAC and power generation, we offer automation technologies that put you in command — in real time. With continuous supervision, automatic alerts and remote access, your operation gains agility and compliance with health standards. Automating is more than modernizing — it is caring better."
+  },
+  "footer": {
+    "copyright": "© 2025 Aion Engenharia Clínica",
+    "address": "Avenida Paulista, 1636 - Block 1504 - Cerqueira César - São Paulo/SP - ZIP Code: 01.310-200",
+    "privacyLabel": "Privacy Policy",
+    "privacyHref": "/en/privacy-policy"
+  }
+}

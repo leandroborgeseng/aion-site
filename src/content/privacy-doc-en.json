@@ -1,0 +1,19 @@
+{
+  "title": "Privacy Policy",
+  "lead": "This is placeholder text and must be replaced with legal-approved content before production launch.",
+  "updatedNote": "Placeholder — update before go-live",
+  "blocks": [
+    {
+      "heading": "Scope",
+      "body": "How AION Engenharia handles personal data on this informational website in line with applicable laws."
+    },
+    {
+      "heading": "Privacy contact",
+      "body": "For requests regarding your personal data or this policy, use the official contact channels shown in the site footer."
+    },
+    {
+      "heading": "Cookies and analytics (when enabled)",
+      "body": "If enabled, we may use Plausible Analytics (privacy-first, no advertising cookies). A consent banner is shown in that case; if analytics is not configured, no third-party measurement script is loaded."
+    }
+  ]
+}

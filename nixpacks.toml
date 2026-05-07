@@ -1,0 +1,5 @@
+# Deploy sem Docker (Nixpacks no Railway, Render, etc.)
+# Node alinhado a .nvmrc / package.json engines
+
+[variables]
+NIXPACKS_NODE_VERSION = "22"

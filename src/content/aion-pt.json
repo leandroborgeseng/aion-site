@@ -1,0 +1,115 @@
+{
+  "topbar": {
+    "address1": "Av. Paulista, 1636 - Conj. 1504 - Cerqueira César - São Paulo/SP - CEP: 01.310-200",
+    "address2": "Av. Ismael Alonso Y Alonso, 1219 - Conj. 1508 - Centro - Franca/SP - CEP: 14.400-770",
+    "phone": "16 3030-0445",
+    "portalLink": "Portal do Cliente",
+    "portalUrl": "https://portal.aion.eng.br/"
+  },
+  "nav": {
+    "clinicalEngineering": "ENGENHARIA CLÍNICA",
+    "assetManagement": "GESTÃO DE ATIVOS",
+    "contact": "CONTATO"
+  },
+  "hero": {
+    "card1Title": "Calibração de equipamentos",
+    "card1Desc": "Precisão e confiança em todos os seus equipamentos médico-hospitalares no dia-a-dia da sua clínica ou hospital.",
+    "card2Title": "Manutenção de equipamentos",
+    "card2Desc": "Precisão e confiança em todos os seus equipamentos médico-hospitalares no dia-a-dia da sua clínica ou hospital.",
+    "card3Title": "Gerenciamento de equipes",
+    "card3Desc": "Realizamos a gestão de seus equipamentos médico-hospitalares e o gerenciamento de sua equipe técnica.",
+    "cta": "Saiba mais"
+  },
+  "services": {
+    "label": "Serviços:",
+    "intro": "A Aion Engenharia oferece soluções completas em engenharia clínica, gestão de ativos clínicos, engenharia hospitalar — incluindo projetos arquitetônicos e aprovações na vigilância sanitária — e automação hospitalar. Atuamos com foco em eficiência, segurança e conformidade para hospitais, clínicas e instituições de saúde.",
+    "s1": "Engenharia Clínica",
+    "s2": "Gestão de Ativos Clínicos",
+    "s3": "Engenharia Hospitalar",
+    "s4": "Automação Hospitalar"
+  },
+  "engClinica": {
+    "heading": "Engenharia Clínica",
+    "intro1": "Independentemente do tamanho e do nível de densidade tecnológica, cada vez mais prestadores de serviços de saúde confiam na Aion para aumentar a vida útil, o tempo de disponibilidade e o desempenho de seus equipamentos médicos.",
+    "intro2": "O principal resultado de nosso trabalho é possibilitar que nossos clientes foquem no cuidado ao paciente - e não no mau funcionamento de um equipamento médico ou nas despesas decorrentes desse problema. Objetivando este resultado a Aion Engenharia, por meio de parcerias com entidades de renome internacional, traz para o Brasil o que há de mais moderno em gestão de ativos eletromédicos no mundo.",
+    "intro3": "Dos vários serviços presentes em nosso portfólio, um ou um conjunto deles irão fornecer a solução ideal para o seu negócio. Entenda como cada serviço de nosso portfólio pode ajudar sua empresa, em caso de dúvidas entre em contato diretamente com um de nossos especialistas. Eles estão sempre disponíveis para ajudar a montar o mix ideal de serviços para sua solução, única e personalizada.",
+    "cta": "Saiba mais...",
+    "detailIntro": "A engenharia clínica é uma área essencial para garantir a segurança, a eficiência e a disponibilidade dos equipamentos médico-hospitalares dentro das instituições de saúde. Mais do que manutenção de equipamentos, trata-se de uma gestão técnica especializada de todo o parque eletromédico, alinhada com as normas regulatórias, os avanços tecnológicos e as necessidades assistenciais.\n\nA engenharia clínica atua de forma estratégica no gerenciamento de tecnologias em saúde, integrando conhecimento técnico, regulatório e operacional para garantir o uso seguro e eficaz dos equipamentos médicos.\n\nConfira os principais pilares que estruturam um serviço de engenharia clínica eficiente:",
+    "items": [
+      {
+        "title": "Tecnologia em Engenharia Clínica",
+        "desc": "Acompanhamos a evolução tecnológica do setor para auxiliar na aquisição, implementação e avaliação de novas tecnologias, promovendo inovação com responsabilidade e segurança."
+      },
+      {
+        "title": "Conformidade Regulatória",
+        "desc": "Atuamos em total conformidade com as normas da ANVISA, como a RDC 665/2022, que exige a manutenção e rastreabilidade de todos os equipamentos em uso na assistência à saúde."
+      },
+      {
+        "title": "Alocação, Treinamento e Desenvolvimento de Equipes",
+        "desc": "Uma gestão eficiente exige equipes capacitadas. Oferecemos suporte na alocação técnica e no treinamento de profissionais para uso correto dos equipamentos, minimizando riscos e otimizando resultados."
+      },
+      {
+        "title": "Manutenção Preventiva",
+        "desc": "Manutenções periódicas garantem o desempenho e a durabilidade dos equipamentos. Seguimos as recomendações dos fabricantes e as normas vigentes para manter tudo funcionando com segurança."
+      },
+      {
+        "title": "Planejamento de Substituição de Equipamentos Médicos",
+        "desc": "Avaliamos o ciclo de vida dos equipamentos para planejar substituições de forma técnica, econômica e estratégica, evitando riscos e prejuízos por obsolescência."
+      },
+      {
+        "title": "Cibersegurança em Engenharia Clínica",
+        "desc": "Com a crescente integração digital dos dispositivos médicos, aplicamos medidas de segurança cibernética para proteger dados sensíveis e garantir a integridade das operações."
+      }
+    ]
+  },
+  "gestaoAtivos": {
+    "heading": "Gestão de Ativos",
+    "intro": "Você sabe exatamente quantos equipamentos médicos sua instituição possui, onde eles estão, quais estão funcionando corretamente e quais precisam de manutenção? Já imaginou poder ter controle total dos seus ativos sem precisar contratar pacotes fechados e onerosos de serviços? Com uma gestão inteligente, é possível reduzir custos, aumentar a eficiência e garantir a segurança dos pacientes, tudo isso mantendo a liberdade de escolher os prestadores de serviço que melhor atendem sua realidade. A seguir, mostramos como a Aion Engenharia pode transformar a forma como você cuida dos seus equipamentos.",
+    "detail": "A Aion Engenharia oferece soluções completas de gestão de ativos clínicos, unindo tecnologia e conhecimento técnico para aumentar a eficiência operacional e reduzir custos nas instituições de saúde. Por meio da gestão de ativos, realizamos o cadastro completo de todos os equipamentos e monitoramos seu ciclo de vida, oferecendo ao cliente uma visão clara e estratégica da situação dos seus dispositivos médicos. Diferente de modelos engessados, nosso serviço permite total flexibilidade: o cliente não precisa contratar pacotes fechados com engenheiro residente, calibrações ou manutenções preventivas constantes. Em vez disso, ele recebe alertas precisos sobre os serviços que deveriam ser realizados, com base em critérios técnicos e regulatórios, e pode contratá-los de qualquer prestador de sua confiança. Nossa plataforma garante que todos os serviços – independentemente de quem os execute – sejam realizados corretamente e dentro dos prazos recomendados, assegurando a conformidade, a segurança dos pacientes e a longevidade dos ativos. Com a Aion Engenharia, sua instituição de saúde conquista controle, economia e liberdade para tomar as melhores decisões.",
+    "understandMore": "Entenda melhor:",
+    "items": [
+      {
+        "title": "+ Gestão de ativos clínicos",
+        "desc": "A gestão de ativos clínicos é um processo estratégico que abrange todo o ciclo de vida dos equipamentos médico-hospitalares, desde a aquisição até o descarte. Essa gestão envolve o uso de tecnologia especializada para rastrear, monitorar e otimizar o desempenho dos ativos, garantindo maior controle, segurança e eficiência operacional."
+      },
+      {
+        "title": "+ Treinamento em gestão de ativos",
+        "desc": "Além disso, o treinamento em gestão de ativos clínicos é essencial para capacitar as equipes a utilizarem corretamente os equipamentos, entenderem sua criticidade e contribuírem com a conservação e o uso responsável dos recursos tecnológicos."
+      },
+      {
+        "title": "+ Planejamento e a consultoria em investimentos de capital",
+        "desc": "Outro aspecto fundamental é o planejamento e a consultoria em investimentos de capital, que orientam a instituição sobre quais tecnologias adquirir, quando substituir equipamentos e como alocar recursos de forma inteligente, considerando custo-benefício e impacto assistencial."
+      },
+      {
+        "title": "+ Gestão de equipamentos médicos móveis",
+        "desc": "A gestão de equipamentos médicos móveis, como bombas de infusão, monitores e oxímetros, também faz parte desse escopo. Esses dispositivos, por serem frequentemente deslocados, exigem controle rigoroso para evitar perdas, garantir disponibilidade e manter sua manutenção em dia."
+      },
+      {
+        "title": "+ Descarte de dispositivos médicos",
+        "desc": "Por fim, o descarte de dispositivos médicos deve ser feito de forma segura, seguindo normas ambientais e sanitárias. A gestão adequada do descarte evita riscos legais e ambientais, além de abrir espaço para a renovação tecnológica dentro da instituição. Essa abordagem integrada garante que os ativos clínicos sejam utilizados de forma eficiente, segura e estratégica, promovendo um cuidado em saúde de maior qualidade."
+      }
+    ]
+  },
+  "engHospitalar": {
+    "heading": "Engenharia Hospitalar",
+    "subtitle": "Engenharia Hospitalar com Precisão, Funcionalidade e Conformidade",
+    "body": "Na área da saúde, cada detalhe conta — e um projeto mal planejado pode representar atrasos, gastos extras e até a paralisação de um serviço essencial. Por isso, nossa atuação em engenharia hospitalar é voltada para apoiar estabelecimentos de todos os portes, desde pequenas clínicas e consultórios até grandes hospitais e centros médicos, oferecendo soluções técnicas funcionais, seguras e em total conformidade com as normas vigentes. Contamos com profissionais renomados no mercado, com larga experiência na área — alguns com mais de 30 anos de atuação em projetos hospitalares — que unem conhecimento técnico à vivência prática para desenvolver projetos otimizados, seguros e aprovados pelos órgãos reguladores.\n\nInfelizmente, é comum vermos projetos de saúde elaborados por profissionais que não dominam as normativas específicas do setor, resultando em retrabalho, custos elevados e atrasos. Após a visita da vigilância sanitária ou outros órgãos fiscalizadores, esses espaços muitas vezes precisam ser reformulados para se adequarem às exigências legais antes mesmo de começarem a operar.\n\nNosso compromisso é justamente evitar esse tipo de transtorno, entregando um projeto que já nasce adequado às regulamentações da ANVISA, RDCs e demais legislações aplicáveis, com fluxo de trabalho inteligente, distribuição funcional dos ambientes e foco na experiência do paciente e da equipe de saúde. Com uma abordagem técnica, ágil e assertiva, oferecemos tranquilidade a quem está investindo em saúde, garantindo que o projeto avance com segurança, economia e eficiência.",
+    "together": "Juntos:",
+    "togetherSubtitle": "Estamos com você em cada etapa — do projeto à operação.",
+    "togetherBody": "Mais do que elaborar plantas e plantas técnicas, nos envolvemos profundamente em cada fase do processo, acompanhando desde o planejamento inicial até o início efetivo das atividades da sua clínica ou hospital. Atuamos como parceiros estratégicos, orientando decisões, antecipando exigências legais e garantindo que cada ambiente esteja pronto para funcionar com segurança, eficiência e total conformidade. Nosso objetivo é que você inaugure seu serviço de saúde com confiança, sabendo que todos os detalhes técnicos, regulatórios e funcionais foram pensados por especialistas. Com nossa equipe ao seu lado, seu projeto não é apenas viável — ele é realizável, aprovado e otimizado para o sucesso.",
+    "readMore": "Leia mais"
+  },
+  "automacao": {
+    "heading": "Automação Hospitalar",
+    "subtitle": "Soluções em Automação para Saúde: Tecnologia a Serviço da Eficiência",
+    "body": "A Aion Engenharia Clínica também oferece soluções completas de automação voltadas para estabelecimentos de saúde, atuando em duas frentes distintas para atender diferentes necessidades operacionais e tecnológicas. A primeira delas é baseada em tecnologia de Internet das Coisas (IoT), fornecida por uma empresa do mesmo grupo, especializada no controle da cadeia do frio. Essa solução utiliza redes de comunicação GSM e Sigfox para monitoramento remoto e em tempo real de equipamentos como câmaras frias e refrigeradores de vacinas e medicamentos. O sistema gera histogramas de temperatura automáticos, substituindo os registros manuais, além de enviar alertas por e-mail e WhatsApp sempre que ocorrem desvios de temperatura. É a solução ideal para garantir segurança, rastreabilidade e conformidade em ambientes sensíveis da área da saúde. A segunda frente de automação, voltada para infraestrutura hospitalar mais robusta, é oferecida pela Aion por meio de uma parceria com uma empresa nacional de renome, que possui mais de 40 anos de experiência no setor de automação predial e hospitalar. Essa empresa está presente nos principais hospitais do Brasil e atua na gestão de máquinas de ar-condicionado central, controle de climatização de salas cirúrgicas, centrais de energia, sistemas de exaustão, pressurização e muito mais. Com essas duas abordagens, oferecemos desde soluções inteligentes para a rotina operacional até sistemas complexos de automação predial, unindo tecnologia, segurança e confiabilidade para que sua instituição de saúde opere com excelência.",
+    "ctaTitle": "Automatize. Supervise. Confie.",
+    "ctaBody": "Transforme a gestão da sua infraestrutura de saúde com soluções inteligentes que garantem mais segurança, eficiência e controle. Da cadeia do frio ao gerenciamento de sistemas complexos como climatização e geração de energia, oferecemos tecnologias de automação que colocam você no comando — em tempo real. Com supervisão contínua, alertas automáticos e acesso remoto, sua operação ganha agilidade e conformidade com as normas de saúde. Automatizar é mais do que modernizar — é cuidar melhor."
+  },
+  "footer": {
+    "copyright": "© 2025 Aion Engenharia Clínica",
+    "address": "Avenida Paulista, 1636 - Conj. 1504 - Cerqueira César - São Paulo/SP - CEP: 01.310-200",
+    "privacyLabel": "Política de privacidade",
+    "privacyHref": "/pt/politica-de-privacidade"
+  }
+}

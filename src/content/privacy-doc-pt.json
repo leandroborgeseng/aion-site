@@ -1,0 +1,19 @@
+{
+  "title": "Política de privacidade",
+  "lead": "Este texto é modelo e deve ser revisado e substituído por conteúdo aprovado pelo departamento jurídico antes da publicação em produção.",
+  "updatedNote": "Texto modelo — atualizar antes do go-live",
+  "blocks": [
+    {
+      "heading": "Escopo",
+      "body": "Descrição de como a AION Engenharia trata dados pessoais em seu site institucional, em conformidade com a legislação aplicável."
+    },
+    {
+      "heading": "Contato sobre privacidade",
+      "body": "Para solicitações relacionadas aos seus dados ou a esta política, utilize os canais oficiais de contato indicados no rodapé do site."
+    },
+    {
+      "heading": "Cookies e medição (quando ativada)",
+      "body": "Se for configurada, é possível utilizar o serviço Plausible Analytics (medição anónima, sem cookies de publicidade). Nesse caso exibimos um pedido de consentimento; sem essa configuração, não é carregada ferramenta de medição de terceiros."
+    }
+  ]
+}

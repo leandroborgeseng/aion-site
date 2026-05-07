@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Production / standalone artefact
+*.tsbuildinfo
+
+# Debug / logs
+npm-debug.log*
+.DS_Store
+
+# Env (nunca commitar segredos)
+.env
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+
+# Vercel (se usar)
+.vercel
+
+# OS
+Thumbs.db
