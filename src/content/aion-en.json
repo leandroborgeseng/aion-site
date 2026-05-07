@@ -11,6 +11,9 @@
     "assetManagement": "CLINICAL ASSET MANAGEMENT",
     "contact": "CONTACT"
   },
+  "floatingContact": {
+    "label": "Contact us"
+  },
   "hero": {
     "card1Title": "Equipment calibration",
     "card1Desc": "Precision and reliability in all your medical-hospital equipment in the day-to-day running of your clinic or hospital.",
@@ -117,6 +120,67 @@
     "passwordPlaceholder": "••••••••",
     "submit": "Sign in",
     "backHome": "Back to website"
+  },
+  "contactPage": {
+    "browserTitle": "Contact us",
+    "metaDescription": "Send a contact request to Aion Engenharia Clínica — form with CPF/CNPJ validation and Brazilian postal code (CEP) lookup.",
+    "h1": "Contact us",
+    "lead": "Fill in the fields below. We validate CPF or CNPJ, phone and CEP. Address fields can be filled automatically after you enter the CEP.",
+    "backHome": "Back to website",
+    "form": {
+      "fullNameLabel": "Full name",
+      "fullNamePlaceholder": "Contact name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@company.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "(16) 99999-9999",
+      "documentTypeLabel": "ID type",
+      "documentTypeCpf": "CPF (individual)",
+      "documentTypeCnpj": "CNPJ (company)",
+      "documentLabel": "CPF or CNPJ number",
+      "documentPlaceholderCpf": "000.000.000-00",
+      "documentPlaceholderCnpj": "00.000.000/0001-00",
+      "companyNameLabel": "Company legal name",
+      "companyNamePlaceholder": "As registered with CNPJ",
+      "cepLabel": "Postal code (CEP)",
+      "cepPlaceholder": "00000-000",
+      "cepHint": "When you leave this field or click Look up, we fill street, neighbourhood, city and state when the CEP exists in the Correios/ViaCEP database.",
+      "streetLabel": "Street",
+      "streetPlaceholder": "Street name",
+      "numberLabel": "Number",
+      "numberPlaceholder": "No.",
+      "complementLabel": "Complement",
+      "complementPlaceholder": "Apt, suite, block (optional)",
+      "neighborhoodLabel": "Neighbourhood",
+      "neighborhoodPlaceholder": "Neighbourhood",
+      "cityLabel": "City",
+      "cityPlaceholder": "City",
+      "stateLabel": "State (UF)",
+      "statePlaceholder": "Select",
+      "messageLabel": "Message / request",
+      "messagePlaceholder": "Describe your request or question",
+      "submitLabel": "Send request",
+      "submittingLabel": "Sending…",
+      "lookupCepLabel": "Look up CEP"
+    },
+    "validation": {
+      "required": "This field is required.",
+      "emailInvalid": "Enter a valid email address.",
+      "phoneInvalid": "Enter area code + number (10 or 11 digits).",
+      "cpfInvalid": "Invalid CPF.",
+      "cnpjInvalid": "Invalid CNPJ.",
+      "companyRequired": "Enter the company legal name for CNPJ.",
+      "cepInvalid": "CEP must be 8 digits.",
+      "stateInvalid": "Select a valid Brazilian state (UF).",
+      "messageRequired": "Enter your message or request."
+    },
+    "feedback": {
+      "successTitle": "Request sent",
+      "successBody": "We have received your details and will get back to you soon using the email or phone you provided.",
+      "errorGeneric": "Could not send right now. Check your connection and try again.",
+      "cepLoading": "Looking up address…",
+      "cepNotFound": "CEP not found. Check the number or enter the address manually."
+    }
   },
   "footer": {
     "copyright": "© 2025 Aion Engenharia Clínica",

@@ -11,6 +11,9 @@
     "assetManagement": "GESTÃO DE ATIVOS",
     "contact": "CONTATO"
   },
+  "floatingContact": {
+    "label": "Fale conosco"
+  },
   "hero": {
     "card1Title": "Calibração de equipamentos",
     "card1Desc": "Precisão e confiança em todos os seus equipamentos médico-hospitalares no dia-a-dia da sua clínica ou hospital.",
@@ -117,6 +120,67 @@
     "passwordPlaceholder": "••••••••",
     "submit": "Entrar",
     "backHome": "Voltar ao site"
+  },
+  "contactPage": {
+    "browserTitle": "Fale conosco",
+    "metaDescription": "Envie uma solicitação de contato à Aion Engenharia Clínica: formulário com validação de CPF/CNPJ e endereço por CEP.",
+    "h1": "Fale conosco",
+    "lead": "Preencha os dados abaixo. Os campos são validados (CPF ou CNPJ, telefone e CEP). O endereço pode ser preenchido automaticamente após informar o CEP.",
+    "backHome": "Voltar ao site",
+    "form": {
+      "fullNameLabel": "Nome completo",
+      "fullNamePlaceholder": "Nome do contato",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "nome@empresa.com.br",
+      "phoneLabel": "Telefone",
+      "phonePlaceholder": "(16) 99999-9999",
+      "documentTypeLabel": "Tipo de documento",
+      "documentTypeCpf": "CPF",
+      "documentTypeCnpj": "CNPJ",
+      "documentLabel": "CPF ou CNPJ",
+      "documentPlaceholderCpf": "000.000.000-00",
+      "documentPlaceholderCnpj": "00.000.000/0001-00",
+      "companyNameLabel": "Razão social (nome da empresa)",
+      "companyNamePlaceholder": "Como consta no cartão CNPJ",
+      "cepLabel": "CEP",
+      "cepPlaceholder": "00000-000",
+      "cepHint": "Ao sair do campo ou ao clicar em Buscar, preenchemos logradouro, bairro, cidade e UF quando o CEP existir na base dos Correios (ViaCEP).",
+      "streetLabel": "Logradouro",
+      "streetPlaceholder": "Rua, avenida…",
+      "numberLabel": "Número",
+      "numberPlaceholder": "Nº",
+      "complementLabel": "Complemento",
+      "complementPlaceholder": "Apto, sala, bloco (opcional)",
+      "neighborhoodLabel": "Bairro",
+      "neighborhoodPlaceholder": "Bairro",
+      "cityLabel": "Cidade",
+      "cityPlaceholder": "Cidade",
+      "stateLabel": "UF",
+      "statePlaceholder": "Selecione",
+      "messageLabel": "Mensagem / solicitação",
+      "messagePlaceholder": "Descreva o motivo do contato ou o que precisa",
+      "submitLabel": "Enviar solicitação",
+      "submittingLabel": "Enviando…",
+      "lookupCepLabel": "Buscar CEP"
+    },
+    "validation": {
+      "required": "Este campo é obrigatório.",
+      "emailInvalid": "Informe um e-mail válido.",
+      "phoneInvalid": "Informe DDD + número (10 ou 11 dígitos).",
+      "cpfInvalid": "CPF inválido.",
+      "cnpjInvalid": "CNPJ inválido.",
+      "companyRequired": "Informe a razão social para pessoa jurídica.",
+      "cepInvalid": "O CEP deve ter 8 dígitos.",
+      "stateInvalid": "Selecione uma UF válida.",
+      "messageRequired": "Descreva sua solicitação ou mensagem."
+    },
+    "feedback": {
+      "successTitle": "Solicitação enviada",
+      "successBody": "Recebemos os seus dados. Retornaremos em breve pelo e-mail ou telefone informados.",
+      "errorGeneric": "Não foi possível enviar agora. Verifique a conexão e tente de novo.",
+      "cepLoading": "Buscando endereço…",
+      "cepNotFound": "CEP não encontrado. Confira o número ou preencha o endereço manualmente."
+    }
   },
   "footer": {
     "copyright": "© 2025 Aion Engenharia Clínica",

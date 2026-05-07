@@ -25,5 +25,8 @@ npm-debug.log*
 # Vercel (se usar)
 .vercel
 
+# Contactos enviados pelo formulário (gerado em runtime; não versionar)
+data/contacts.json
+
 # OS
 Thumbs.db

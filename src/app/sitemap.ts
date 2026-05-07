@@ -13,6 +13,12 @@ const PORTAL_PAGES: { path: string }[] = [
   { path: "/es/portal" },
 ];
 
+const CONTACT_PAGES: { path: string }[] = [
+  { path: "/pt/fale-conosco" },
+  { path: "/en/contact" },
+  { path: "/es/contacto" },
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = getSiteUrl();
   const now = new Date();
@@ -38,5 +44,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...home, ...legal, ...portal];
+  const contact = CONTACT_PAGES.map(({ path }) => ({
+    url: `${base}${path}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.55,
+  }));
+
+  return [...home, ...legal, ...portal, ...contact];
 }

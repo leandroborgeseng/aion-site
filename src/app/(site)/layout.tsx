@@ -1,4 +1,5 @@
 import { CookieAndAnalytics } from "@/components/CookieAndAnalytics";
+import { FloatingContactButton } from "@/components/FloatingContactButton";
 import { JsonLdLocalBusiness } from "@/components/JsonLdLocalBusiness";
 import { Raleway } from "next/font/google";
 
@@ -17,6 +18,7 @@ export default function SiteLayout({
     <div className={`${raleway.variable} ${raleway.className}`}>
       <JsonLdLocalBusiness />
       {children}
+      <FloatingContactButton />
       <CookieAndAnalytics />
     </div>
   );
