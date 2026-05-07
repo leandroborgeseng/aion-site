@@ -7,6 +7,12 @@ const LEGAL_PAGES: { path: string; priority: number }[] = [
   { path: "/es/politica-de-privacidad", priority: 0.35 },
 ];
 
+const PORTAL_PAGES: { path: string }[] = [
+  { path: "/pt/portal" },
+  { path: "/en/portal" },
+  { path: "/es/portal" },
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = getSiteUrl();
   const now = new Date();
@@ -25,5 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority,
   }));
 
-  return [...home, ...legal];
+  const portal = PORTAL_PAGES.map(({ path }) => ({
+    url: `${base}${path}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
+  return [...home, ...legal, ...portal];
 }

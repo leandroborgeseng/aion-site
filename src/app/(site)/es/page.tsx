@@ -12,7 +12,7 @@ import dict from "@/content/aion-es.json";
 export default function PageEs() {
   return (
     <main>
-      <TopBar dict={dict.topbar} />
+      <TopBar dict={dict.topbar} lang="es" />
       <Navbar dict={dict.nav} lang="es" />
       <HeroSection dict={dict.hero} lang="es" />
       <ServicesGrid dict={dict.services} lang="es" />

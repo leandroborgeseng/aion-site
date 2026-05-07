@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function PagePrivacyEs() {
   return (
     <main className="min-h-screen">
-      <TopBar dict={dictSite.topbar} />
+      <TopBar dict={dictSite.topbar} lang="es" />
       <Navbar dict={dictSite.nav} lang="es" />
       <PrivacyArticle dict={doc} homeHref="/es" homeLabel="Inicio" />
       <Footer dict={dictSite.footer} />

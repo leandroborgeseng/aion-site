@@ -106,6 +106,18 @@
     "ctaTitle": "Automatize. Supervise. Confie.",
     "ctaBody": "Transforme a gestão da sua infraestrutura de saúde com soluções inteligentes que garantem mais segurança, eficiência e controle. Da cadeia do frio ao gerenciamento de sistemas complexos como climatização e geração de energia, oferecemos tecnologias de automação que colocam você no comando — em tempo real. Com supervisão contínua, alertas automáticos e acesso remoto, sua operação ganha agilidade e conformidade com as normas de saúde. Automatizar é mais do que modernizar — é cuidar melhor."
   },
+  "portalLogin": {
+    "browserTitle": "Portal do cliente",
+    "metaDescription": "Área de login reservada a clientes da AION Engenharia. A autenticação será disponibilizada em breve.",
+    "h1": "Portal do cliente",
+    "subtitle": "Acesso reservado para clientes da AION Engenharia.",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Palavra-passe",
+    "emailPlaceholder": "nome@empresa.com.br",
+    "passwordPlaceholder": "••••••••",
+    "submit": "Entrar",
+    "backHome": "Voltar ao site"
+  },
   "footer": {
     "copyright": "© 2025 Aion Engenharia Clínica",
     "address": "Avenida Paulista, 1636 - Conj. 1504 - Cerqueira César - São Paulo/SP - CEP: 01.310-200",

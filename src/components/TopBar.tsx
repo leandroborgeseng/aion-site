@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { siteImages } from "@/lib/site-images";
 import { MapPin, Phone, Plus } from "lucide-react";
 
@@ -8,13 +9,14 @@ interface TopBarProps {
     address2: string;
     phone: string;
     portalLink: string;
-    portalUrl: string;
+    portalUrl?: string;
   };
+  lang: "pt" | "en" | "es";
 }
 
 const PHONE_HREF = "tel:+551630300445";
 
-export function TopBar({ dict }: TopBarProps) {
+export function TopBar({ dict, lang }: TopBarProps) {
   return (
     <div className="bg-[#0067AF] text-white">
       <div className="mx-auto flex max-w-[1200px] flex-col gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-start lg:justify-between lg:gap-6">
@@ -34,15 +36,13 @@ export function TopBar({ dict }: TopBarProps) {
             <Phone size={16} aria-hidden strokeWidth={2} />
             <span>{dict.phone}</span>
           </a>
-          <a
-            href={dict.portalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href={`/${lang}/portal`}
             className="inline-flex min-h-11 shrink-0 items-center gap-1.5 text-[14px] hover:underline"
           >
             <Plus size={16} aria-hidden strokeWidth={2} />
             {dict.portalLink}
-          </a>
+          </Link>
           <div className="flex items-center gap-1 sm:gap-2">
             <a
               href="https://www.instagram.com/aion.engenharia/"

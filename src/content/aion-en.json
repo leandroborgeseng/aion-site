@@ -106,6 +106,18 @@
     "ctaTitle": "Automate. Supervise. Trust.",
     "ctaBody": "Transform the management of your healthcare infrastructure with intelligent solutions that ensure greater security, efficiency and control. From the cold chain to managing complex systems such as HVAC and power generation, we offer automation technologies that put you in command — in real time. With continuous supervision, automatic alerts and remote access, your operation gains agility and compliance with health standards. Automating is more than modernizing — it is caring better."
   },
+  "portalLogin": {
+    "browserTitle": "Customer portal",
+    "metaDescription": "Reserved login area for clients of Aion Engenharia Clínica. Authentication will be available soon.",
+    "h1": "Customer portal",
+    "subtitle": "Reserved access for clients of Aion Engenharia Clínica.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "emailPlaceholder": "name@company.com",
+    "passwordPlaceholder": "••••••••",
+    "submit": "Sign in",
+    "backHome": "Back to website"
+  },
   "footer": {
     "copyright": "© 2025 Aion Engenharia Clínica",
     "address": "Avenida Paulista, 1636 - Block 1504 - Cerqueira César - São Paulo/SP - ZIP Code: 01.310-200",
