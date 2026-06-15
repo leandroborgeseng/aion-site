@@ -1,5 +1,6 @@
-# Build context = esta pasta (aion-site).
-# Railway: Root Directory = aion-site; nas variáveis do serviço, marque NEXT_PUBLIC_* como disponíveis no **build** (Docker precisa disto para inlining no cliente).
+# Build context = raiz deste repositório (aion-site).
+# Coolify: Build Pack = Docker Compose (ou Dockerfile). Porta interna 3000; 80/443 ficam no Traefik do Coolify.
+# Railway: Root Directory = aion-site; marque NEXT_PUBLIC_* também no **build**.
 
 # syntax=docker/dockerfile:1
 FROM node:22-bookworm-slim AS base
@@ -38,5 +39,8 @@ USER nextjs
 EXPOSE 3000
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=45s --retries=3 \
+  CMD node -e "fetch('http://127.0.0.1:3000/api/health').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
 
 CMD ["node", "server.js"]

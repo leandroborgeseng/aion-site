@@ -1,0 +1,47 @@
+# Coolify — Docker Compose Build Pack
+#
+# Portas 80/443: o proxy Traefik do Coolify escuta no host e termina SSL.
+# Este serviço expõe apenas a porta interna 3000; no painel Coolify defina
+# "Ports Exposes" = 3000 e associe o domínio (HTTPS automático).
+#
+# Variáveis NEXT_PUBLIC_* devem existir no **build** (Build Args / env de build).
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://www.aion.eng.br}
+        NEXT_PUBLIC_PLAUSIBLE_DOMAIN: ${NEXT_PUBLIC_PLAUSIBLE_DOMAIN:-}
+        NEXT_PUBLIC_PLAUSIBLE_SCRIPT_SRC: ${NEXT_PUBLIC_PLAUSIBLE_SCRIPT_SRC:-}
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      HOSTNAME: 0.0.0.0
+      # Runtime (servidor / SEO server-side). Cliente já foi compilado no build.
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-https://www.aion.eng.br}
+      CONTACT_STORAGE_PATH: /data/contacts.json
+      CONTACT_ADMIN_SECRET: ${CONTACT_ADMIN_SECRET:-}
+    volumes:
+      - contact-data:/data
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3000/api/health').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 45s
+
+volumes:
+  contact-data:
