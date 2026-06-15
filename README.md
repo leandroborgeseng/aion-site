@@ -47,7 +47,7 @@ O `Dockerfile` já define defaults para `NEXT_PUBLIC_*` para o build não falhar
 
 ## Coolify
 
-O repositório inclui `docker-compose.yml` pronto para o **Docker Compose Build Pack** do Coolify v4.
+O repositório inclui `docker-compose.yaml` pronto para o **Docker Compose Build Pack** do Coolify v4.
 
 ### Como funciona 80 / 443
 
@@ -56,7 +56,7 @@ No Coolify, **não** publique `80:80` nem `443:443` no container. O **Traefik** 
 ### Passos no painel
 
 1. **Novo recurso** → repositório Git (`aion-site`) → branch de produção.
-2. **Build Pack:** Docker Compose (Coolify deteta `docker-compose.yml` na raiz).
+2. **Build Pack:** Docker Compose (Coolify deteta `docker-compose.yaml` na raiz).
 3. **Variáveis de ambiente** (mínimo):
    - `NEXT_PUBLIC_SITE_URL` — ex.: `https://www.aion.eng.br` (sem barra final).
    - Marque `NEXT_PUBLIC_*` também para a fase de **build** (são inlined no JavaScript no `next build`).
