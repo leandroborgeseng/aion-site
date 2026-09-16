@@ -145,7 +145,7 @@
   background: var(--aion-blue);
   color: #fff;
   font-size: 12px;
-  font-family: Arial, sans-serif;
+  font-family: var(--font-manrope), sans-serif;
   border-bottom: 1px solid #ffffff30;
 }
 .aion-topbar > .aion-container,
@@ -170,13 +170,13 @@
 .aion-home {
   background: white;
   color: var(--aion-ink);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-manrope), sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 .aion-home h1,
 .aion-home h2,
 .aion-home h3 {
-  font-family: var(--font-raleway), Arial, sans-serif;
+  font-family: var(--font-sora), sans-serif;
 }
 .aion-home :focus-visible {
   outline: 3px solid var(--aion-yellow);
@@ -201,7 +201,7 @@
 .aion-home h2 {
   font-size: clamp(34px, 3.5vw, 49px);
   line-height: 1.13;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.035em;
   font-weight: 700;
   text-wrap: balance;
 }
@@ -251,7 +251,7 @@
 .aion-hero h1 {
   font-size: clamp(46px, 4.75vw, 70px);
   line-height: 1.04;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.04em;
   font-weight: 700;
   margin-bottom: 28px;
 }

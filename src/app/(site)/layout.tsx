@@ -1,11 +1,17 @@
 import { CookieAndAnalytics } from "@/components/CookieAndAnalytics";
 import { FloatingContactButton } from "@/components/FloatingContactButton";
 import { JsonLdLocalBusiness } from "@/components/JsonLdLocalBusiness";
-import { Raleway } from "next/font/google";
+import { Manrope, Sora } from "next/font/google";
 
-const raleway = Raleway({
+const manrope = Manrope({
   subsets: ["latin"],
-  variable: "--font-raleway",
+  variable: "--font-manrope",
+  display: "swap",
+});
+
+const sora = Sora({
+  subsets: ["latin"],
+  variable: "--font-sora",
   display: "swap",
 });
 
@@ -15,7 +21,7 @@ export default function SiteLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={`${raleway.variable} ${raleway.className}`}>
+    <div className={`${manrope.variable} ${sora.variable} ${manrope.className}`}>
       <JsonLdLocalBusiness />
       {children}
       <FloatingContactButton />
