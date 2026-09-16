@@ -45,7 +45,7 @@
       },
       {
         "title": "Conformidade Regulatória",
-        "desc": "Atuamos em total conformidade com as normas da ANVISA, como a RDC 665/2022, que exige a manutenção e rastreabilidade de todos os equipamentos em uso na assistência à saúde."
+        "desc": "Apoiamos a organização dos registros, a rastreabilidade das intervenções e o acompanhamento dos requisitos aplicáveis à tecnologia em saúde."
       },
       {
         "title": "Alocação, Treinamento e Desenvolvimento de Equipes",
@@ -123,9 +123,9 @@
   },
   "contactPage": {
     "browserTitle": "Fale conosco",
-    "metaDescription": "Envie uma solicitação de contato à Aion Engenharia Clínica: formulário com validação de CPF/CNPJ e endereço por CEP.",
+    "metaDescription": "Converse com a equipe da Aion sobre engenharia clínica, gestão de ativos, projetos e automação hospitalar.",
     "h1": "Fale conosco",
-    "lead": "Preencha os dados abaixo. Os campos são validados (CPF ou CNPJ, telefone e CEP). O endereço pode ser preenchido automaticamente após informar o CEP.",
+    "lead": "Conte o que sua instituição precisa. Nossa equipe entrará em contato para entender sua demanda e orientar os próximos passos.",
     "backHome": "Voltar ao site",
     "form": {
       "fullNameLabel": "Nome completo",
@@ -186,6 +186,7 @@
     "copyright": "© 2025 Aion Engenharia Clínica",
     "address": "Avenida Paulista, 1636 - Conj. 1504 - Cerqueira César - São Paulo/SP - CEP: 01.310-200",
     "privacyLabel": "Política de privacidade",
-    "privacyHref": "/pt/politica-de-privacidade"
+    "privacyHref": "/pt/politica-de-privacidade",
+    "secondaryAddress": "Av. Ismael Alonso Y Alonso, 1219 - Conj. 1508 - Centro - Franca/SP - CEP: 14.400-770"
   }
 }
