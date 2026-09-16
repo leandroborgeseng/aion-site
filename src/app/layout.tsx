@@ -10,10 +10,11 @@ export const metadata: Metadata = {
     "Engenharia clínica e hospitalar, gestão de ativos e automação para instituições de saúde.",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/aion-favicon-v2.ico", type: "image/x-icon", sizes: "16x16 24x24 32x32 48x48 64x64 128x128 256x256" },
+      { url: "/aion-icon-v2.png", type: "image/png", sizes: "512x512" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
+    shortcut: "/aion-favicon-v2.ico",
+    apple: [{ url: "/aion-apple-touch-v2.png", type: "image/png", sizes: "180x180" }],
   },
 };
 
