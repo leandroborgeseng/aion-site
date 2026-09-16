@@ -1,5 +1,4 @@
 import { getSiteUrl } from "@/lib/seo";
-import { siteImages } from "@/lib/site-images";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
@@ -10,8 +9,11 @@ export const metadata: Metadata = {
   description:
     "Engenharia clínica e hospitalar, gestão de ativos e automação para instituições de saúde.",
   icons: {
-    icon: [{ url: siteImages.logo, type: "image/png" }],
-    apple: siteImages.logo,
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
   },
 };
 

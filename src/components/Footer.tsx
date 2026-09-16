@@ -19,7 +19,7 @@ export function Footer({ dict }: FooterProps) {
     dict.privacyLabel.length > 0;
 
   return (
-    <footer id="contato" className="bg-[#101f2c] text-white py-12">
+    <footer id="contato" className="bg-[#0067AF] text-white py-12">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-6 text-center md:text-left">
         <div>
           <p className="text-[14px] font-semibold">{dict.copyright}</p>
