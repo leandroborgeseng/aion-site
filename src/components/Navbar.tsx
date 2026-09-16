@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { CONTACT_PAGE_PATH } from "@/lib/contact-routes";
 import { siteImages } from "@/lib/site-images";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
@@ -57,14 +58,14 @@ export function Navbar({ dict, lang }: NavbarProps) {
   }, [mobileOpen]);
 
   const desktopLink =
-    "text-[13px] uppercase tracking-[0.1em] font-semibold text-[#2F2E2E] hover:text-[#0067AF] transition-colors";
+    "text-[12px] uppercase tracking-[0.06em] font-semibold text-[#2F2E2E] hover:text-[#0067AF] transition-colors";
 
   const mobileLink =
     "flex min-h-11 items-center border-b border-gray-100 py-3 text-[15px] font-semibold uppercase tracking-[0.08em] text-[#2F2E2E] hover:text-[#0067AF]";
   const closeMobile = () => setMobileOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-100 bg-white shadow-sm">
+    <header className="aion-navbar sticky top-0 z-50 border-b border-gray-100 bg-white">
       <div className="mx-auto flex min-h-[72px] max-w-[1200px] items-center justify-between gap-2 px-4 sm:px-6 md:h-[80px]">
         <Link href={`/${lang}`} className="shrink-0 py-2">
           <Image
@@ -73,13 +74,13 @@ export function Navbar({ dict, lang }: NavbarProps) {
             width={229}
             height={66}
             sizes="(max-width:768px) 160px, 229px"
-            className="h-11 w-auto max-w-[148px] sm:h-12 sm:max-w-[180px] md:h-[66px] md:max-w-none"
+            className="h-11 w-auto max-w-[148px] sm:h-12 sm:max-w-[180px] md:h-[48px] md:max-w-none"
             priority
           />
         </Link>
 
         <nav
-          className="hidden items-center gap-8 md:flex"
+          className="hidden items-center gap-6 lg:flex"
           aria-label={mobileNavAria[lang]}
         >
           <Link
@@ -91,7 +92,7 @@ export function Navbar({ dict, lang }: NavbarProps) {
           <Link href={`/${lang}#gestao-ativos`} className={desktopLink}>
             {dict.assetManagement}
           </Link>
-          <Link href={`/${lang}#contato`} className={desktopLink}>
+          <Link href={CONTACT_PAGE_PATH[lang]} className={desktopLink}>
             {dict.contact}
           </Link>
         </nav>
@@ -102,10 +103,10 @@ export function Navbar({ dict, lang }: NavbarProps) {
               <Link
                 key={l.code}
                 href={`/${l.code}`}
-                className={`inline-flex min-h-11 min-w-11 items-center justify-center border text-[13px] transition-colors ${
+                className={`inline-flex min-h-11 min-w-9 items-center justify-center rounded-full text-[12px] transition-colors ${
                   lang === l.code
-                    ? "border-[#0067AF] bg-[#0067AF] text-white"
-                    : "border-gray-300 text-[#2F2E2E] hover:border-[#0067AF] hover:text-[#0067AF]"
+                    ? "bg-[#edf4f7] text-[#0067AF]"
+                    : "text-[#2F2E2E] hover:border-[#0067AF] hover:text-[#0067AF]"
                 }`}
               >
                 {l.label}
@@ -115,7 +116,7 @@ export function Navbar({ dict, lang }: NavbarProps) {
 
           <button
             type="button"
-            className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center rounded-md border border-gray-300 text-[#2F2E2E] hover:bg-gray-50 md:hidden"
+            className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center rounded-md border text-[#2F2E2E] hover:bg-gray-50 lg:hidden"
             aria-expanded={mobileOpen}
             aria-controls={panelId}
             onClick={() => setMobileOpen((o) => !o)}
@@ -135,13 +136,13 @@ export function Navbar({ dict, lang }: NavbarProps) {
           <button
             type="button"
             tabIndex={-1}
-            className="fixed inset-x-0 bottom-0 top-[72px] z-40 bg-black/35 md:hidden"
+            className="fixed inset-x-0 bottom-0 top-[72px] z-40 bg-black/35 lg:hidden"
             aria-hidden
             onClick={closeMobile}
           />
           <div
             id={panelId}
-            className="absolute left-0 right-0 top-full z-50 border-t border-gray-200 bg-white px-4 pb-6 pt-2 shadow-lg md:hidden"
+            className="absolute left-0 right-0 top-full z-50 border-t border-gray-200 bg-white px-4 pb-6 pt-2 shadow-lg lg:hidden"
           >
             <nav aria-label={mobileNavAria[lang]} className="flex flex-col">
               <Link
@@ -159,7 +160,7 @@ export function Navbar({ dict, lang }: NavbarProps) {
                 {dict.assetManagement}
               </Link>
               <Link
-                href={`/${lang}#contato`}
+                href={CONTACT_PAGE_PATH[lang]}
                 className={`${mobileLink} border-b-0`}
                 onClick={closeMobile}
               >

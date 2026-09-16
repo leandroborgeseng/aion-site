@@ -45,7 +45,7 @@
       },
       {
         "title": "Regulatory Compliance",
-        "desc": "We operate in full compliance with ANVISA standards, such as RDC 665/2022, which requires the maintenance and traceability of all equipment used in healthcare."
+        "desc": "We support maintenance records, intervention traceability and monitoring of applicable healthcare technology requirements."
       },
       {
         "title": "Team Allocation, Training and Development",
@@ -123,9 +123,9 @@
   },
   "contactPage": {
     "browserTitle": "Contact us",
-    "metaDescription": "Send a contact request to Aion Engenharia Clínica — form with CPF/CNPJ validation and Brazilian postal code (CEP) lookup.",
+    "metaDescription": "Contact Aion about clinical engineering, asset management, hospital projects and automation.",
     "h1": "Contact us",
-    "lead": "Fill in the fields below. We validate CPF or CNPJ, phone and CEP. Address fields can be filled automatically after you enter the CEP.",
+    "lead": "Tell us what your institution needs. Our team will get in touch to understand your request and discuss the next steps.",
     "backHome": "Back to website",
     "form": {
       "fullNameLabel": "Full name",
@@ -186,6 +186,7 @@
     "copyright": "© 2025 Aion Engenharia Clínica",
     "address": "Avenida Paulista, 1636 - Block 1504 - Cerqueira César - São Paulo/SP - ZIP Code: 01.310-200",
     "privacyLabel": "Privacy Policy",
-    "privacyHref": "/en/privacy-policy"
+    "privacyHref": "/en/privacy-policy",
+    "secondaryAddress": "Av. Ismael Alonso Y Alonso, 1219 - Conj. 1508 - Center - Franca/SP - ZIP Code: 14.400-770"
   }
 }

@@ -5,6 +5,7 @@ interface FooterProps {
   dict: {
     copyright: string;
     address: string;
+    secondaryAddress?: string;
     privacyLabel?: string;
     privacyHref?: string;
   };
@@ -18,13 +19,13 @@ export function Footer({ dict }: FooterProps) {
     dict.privacyLabel.length > 0;
 
   return (
-    <footer id="contato" className="bg-[#0067AF] text-white py-8">
+    <footer id="contato" className="bg-[#101f2c] text-white py-12">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-6 text-center md:text-left">
         <div>
           <p className="text-[14px] font-semibold">{dict.copyright}</p>
           <p className="mt-2 text-[13px] text-white/80 flex justify-center md:justify-start gap-2 leading-snug">
             <MapPin size={18} className="mt-0.5 shrink-0 opacity-90" aria-hidden />
-            <span>{dict.address}</span>
+            <span>{dict.address}{dict.secondaryAddress && <><br />{dict.secondaryAddress}</>}</span>
           </p>
           {hasPrivacy ? (
             <div className="mt-4">

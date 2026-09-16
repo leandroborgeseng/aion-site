@@ -45,7 +45,7 @@
       },
       {
         "title": "Cumplimiento normativo",
-        "desc": "Operamos en pleno cumplimiento de las normas ANVISA, como la RDC 665/2022, que exige el mantenimiento y la trazabilidad de todos los equipos utilizados en la salud."
+        "desc": "Apoyamos la organización de registros, la trazabilidad de las intervenciones y el seguimiento de los requisitos aplicables a la tecnología sanitaria."
       },
       {
         "title": "Asignación de equipos, capacitación y desarrollo",
@@ -123,9 +123,9 @@
   },
   "contactPage": {
     "browserTitle": "Contacto",
-    "metaDescription": "Envíe una solicitud de contacto a Aion Engenharia Clínica: formulario con validación de CPF/CNPJ y dirección por CEP.",
+    "metaDescription": "Contacte a Aion sobre ingeniería clínica, gestión de activos, proyectos y automatización hospitalaria.",
     "h1": "Contacto",
-    "lead": "Complete los campos. Validamos CPF o CNPJ, teléfono y CEP. La dirección puede completarse automáticamente tras informar el CEP.",
+    "lead": "Cuéntenos qué necesita su institución. Nuestro equipo se pondrá en contacto para comprender su solicitud y orientar los próximos pasos.",
     "backHome": "Volver al sitio",
     "form": {
       "fullNameLabel": "Nombre completo",
@@ -186,6 +186,7 @@
     "copyright": "© 2025 Aion Engenharia Clínica",
     "address": "Avenida Paulista, 1636 - Conj. 1504 - Cerqueira César - São Paulo/SP - Código Postal: 01.310-200",
     "privacyLabel": "Política de privacidad",
-    "privacyHref": "/es/politica-de-privacidad"
+    "privacyHref": "/es/politica-de-privacidad",
+    "secondaryAddress": "AV. Ismael Alonso Y Alonso, 1219 - Conj. 1508 - Centro - Franca/SP - Código Postal: 14.400-770"
   }
 }
