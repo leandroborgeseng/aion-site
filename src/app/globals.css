@@ -1022,9 +1022,7 @@
     width: 100%;
     justify-content: space-between;
   }
-  .aion-navbar img {
-    max-width: 125px;
-  }
+
   .hero-grid {
     display: flex;
     flex-direction: column;
@@ -1239,3 +1237,9 @@
     animation: none !important;
   }
 }
+
+/* Compact, vector brand lockup: preserve aspect ratio on every screen. */
+.aion-navbar .aion-header-logo { width: 238px; height: auto; max-width: none; }
+@media (max-width: 1024px) { .aion-navbar .aion-header-logo { width: 210px; } }
+@media (max-width: 640px) { .aion-navbar .aion-header-logo { width: 160px; } }
+@media (max-width: 380px) { .aion-navbar .aion-header-logo { width: 132px; } }

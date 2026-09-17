@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="230" viewBox="0 0 980 230" fill="none">
+  <title>Aion</title>
+  <defs>
+    <linearGradient id="aion-ring" x1="174" y1="24" x2="40" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0067AF"/>
+      <stop offset=".5" stop-color="#32978A"/>
+      <stop offset="1" stop-color="#8BC832"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(9 11.5) scale(.9)">
+    <path d="M158.1 31.7A94 94 0 1 0 183.7 53.6" stroke="url(#aion-ring)" stroke-width="12"/>
+    <circle cx="174" cy="38" r="13" fill="#0067AF"/>
+    <path d="M65 145 99 85Q102 79 110 79H117Q122 79 126 86L160 145H135L130 135H107V121H122L112 102 88 145Z" fill="#409E7B"/>
+  </g>
+  <g fill="#0067AF">
+    <path d="M222 190 294 52Q300 40 313 40H341Q349 40 355 52L427 190H370L353 161H320V136H339L319 97 271 190Z"/>
+    <rect x="438" y="40" width="38" height="150" rx="4"/>
+    <path fill-rule="evenodd" d="M550 40H640Q692 40 692 91V139Q692 190 640 190H550Q498 190 498 139V91Q498 40 550 40ZM557 74Q539 74 539 94V136Q539 156 557 156H633Q651 156 651 136V94Q651 74 633 74Z"/>
+    <path d="M722 190V60Q722 40 742 40H768Q776 40 782 47L915 160V40H953V170Q953 190 933 190H907Q899 190 893 183L760 70V190Z"/>
+  </g>
+</svg>

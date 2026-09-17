@@ -69,12 +69,12 @@ export function Navbar({ dict, lang }: NavbarProps) {
       <div className="mx-auto flex min-h-[72px] max-w-[1200px] items-center justify-between gap-2 px-4 sm:px-6 md:h-[80px]">
         <Link href={`/${lang}`} className="shrink-0 py-2">
           <Image
-            src={siteImages.logo}
+            src={siteImages.headerLogo}
             alt="Aion Engenharia"
-            width={229}
-            height={66}
-            sizes="(max-width:768px) 160px, 229px"
-            className="h-11 w-auto max-w-[148px] sm:h-12 sm:max-w-[180px] md:h-[48px] md:max-w-none"
+            width={980}
+            height={230}
+            sizes="(max-width: 380px) 132px, (max-width: 640px) 160px, (max-width: 1024px) 210px, 238px"
+            className="aion-header-logo"
             priority
           />
         </Link>
@@ -103,7 +103,7 @@ export function Navbar({ dict, lang }: NavbarProps) {
               <Link
                 key={l.code}
                 href={`/${l.code}`}
-                className={`inline-flex min-h-11 min-w-9 items-center justify-center rounded-full text-[12px] transition-colors ${
+                className={`inline-flex min-h-11 min-w-7 sm:min-w-9 items-center justify-center rounded-full text-[12px] transition-colors ${
                   lang === l.code
                     ? "bg-[#edf4f7] text-[#0067AF]"
                     : "text-[#2F2E2E] hover:border-[#0067AF] hover:text-[#0067AF]"
