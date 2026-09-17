@@ -6,7 +6,7 @@ export const siteImages = {
     "/images/hero/slide-3.jpg",
   ],
   logo: "/images/brand/logo.png",
-  headerLogo: "/images/brand/aion-wordmark.svg",
+  headerLogo: "/images/brand/aion-approved.webp",
   social: {
     instagram: "/images/social/instagram.png",
     twitter: "/images/social/twitter.png",

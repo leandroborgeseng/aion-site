@@ -71,8 +71,8 @@ export function Navbar({ dict, lang }: NavbarProps) {
           <Image
             src={siteImages.headerLogo}
             alt="Aion Engenharia"
-            width={980}
-            height={230}
+            width={2170}
+            height={725}
             sizes="(max-width: 380px) 132px, (max-width: 640px) 160px, (max-width: 1024px) 210px, 238px"
             className="aion-header-logo"
             priority
