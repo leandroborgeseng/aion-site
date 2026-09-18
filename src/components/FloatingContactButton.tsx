@@ -34,7 +34,7 @@ export function FloatingContactButton() {
   return (
     <Link
       href={href}
-      className="fixed bottom-28 right-[max(1rem,env(safe-area-inset-right))] z-[110] flex min-h-12 max-w-[calc(100vw-2rem)] items-center gap-2 rounded-full bg-[#0067AF] px-4 py-3 text-[14px] font-semibold text-white shadow-lg shadow-[#0067AF]/25 transition-colors hover:bg-[#005a99] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0067AF] sm:bottom-10 sm:right-8 sm:px-5 sm:text-[14px]"
+      className="fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-[max(1rem,env(safe-area-inset-right))] z-[110] flex min-h-12 max-w-[calc(100vw-2rem)] items-center gap-2 rounded-full bg-[#0067AF] px-4 py-3 text-[14px] font-semibold text-white shadow-lg shadow-[#0067AF]/25 transition-colors hover:bg-[#005a99] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0067AF] sm:bottom-10 sm:right-8 sm:px-5 sm:text-[14px]"
     >
       <MessageCircle className="size-5 shrink-0" aria-hidden strokeWidth={2} />
       <span className="leading-tight">{label}</span>
